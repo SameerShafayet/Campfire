@@ -1,4 +1,5 @@
 2a60927148abd1d33b818b535e306557
+<<<<<<< Updated upstream
 ::res://::1688740572
 main.gd::GDScript::-1::1688709910::0::1::::<>Control<>::
 main.tscn::PackedScene::4656951139325522033::1688710076::0::1::::<><>::res://main.gd
@@ -11,3 +12,12 @@ Player Back Sheet.png::CompressedTexture2D::9074826336533749567::1688740572::168
 Player Front Sheet.png::CompressedTexture2D::8920748306679311978::1688740572::1688740572::1::::<><>::
 Player Side Sheet.png::CompressedTexture2D::3117015061089574673::1688740572::1688740572::1::::<><>::
 Unused Walk and Shoot.png::CompressedTexture2D::1652382148683147221::1688740572::1688740572::1::::<><>::
+=======
+::res://::1688745122
+enemy.PNG::CompressedTexture2D::8109173043774919426::1688745122::1688745122::1::::<><>::
+main.gd::GDScript::-1::1688712933::0::1::::<>Control<>::
+main.tscn::PackedScene::4656951139325522033::1688743888::0::1::::<><>::res://main.gd
+README.md::TextFile::-1::1688672576::0::1::::<><>::
+enemy_spawner.tscn::PackedScene::7225243096370562628::1688744339::0::1::::<><>::
+Enemy.tscn::PackedScene::324573321892123225::1688744664::0::1::::<><>::
+>>>>>>> Stashed changes

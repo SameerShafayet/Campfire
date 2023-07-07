@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://da67x0ddynjma"]
+
+[node name="EnemySpawner" type="Node2D"]
+
+[node name="Timer" type="Timer" parent="."]
+autostart = true

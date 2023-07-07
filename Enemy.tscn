@@ -1,0 +1,41 @@
+[gd_scene load_steps=6 format=3 uid="uid://evhw7rx1va06"]
+
+[ext_resource type="Script" path="res://Enemy.gd" id="1_7dkpk"]
+[ext_resource type="Texture2D" uid="uid://dnse5o6sewrj3" path="res://enemy.PNG" id="1_8l8mw"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_qeqcm"]
+radius = 95.0
+height = 288.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wobwv"]
+atlas = ExtResource("1_8l8mw")
+region = Rect2(0, 288, 85, 72)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_atpnv"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wobwv")
+}],
+"loop": true,
+"name": &"enemy",
+"speed": 5.0
+}]
+
+[node name="Enemy" type="CharacterBody2D"]
+script = ExtResource("1_7dkpk")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -1)
+shape = SubResource("CapsuleShape2D_qeqcm")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(4, 3)
+scale = Vector2(2.04118, 2.02778)
+sprite_frames = SubResource("SpriteFrames_atpnv")
+animation = &"enemy"
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="Timer" type="Timer" parent="."]
+autostart = true

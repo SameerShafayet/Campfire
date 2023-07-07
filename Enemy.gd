@@ -18,12 +18,60 @@ var timer = 0
 #player scene ref
 var player
 
-
 #When the enemy enters the scene tree, we need to do two things:
 #Initialize the Player node reference
 #Initialize the random number generator
 func _ready():
-	player = get_tree().root.get_node("Main/Player")
+	player = get_tree().root.get_node("World/player")
 	rng.randomize()
+	
+# Apply movement to the enemy
+func _physics_process(delta):
+	var movement = speed * direction * delta
+	var collision = move_and_collide(movement)
+	
+	#if the enemy collides with other objects, turn them around and re-randomize the timer countdown
+	if collision != null and collision.get_collider().name != "Player":
+		#direction rotation
+		direction = direction.rotated(rng.randf_range(PI/4, PI/2))
+		#timer countdown random range
+		timer = rng.randf_range(2, 5)
+	#if they collide with the player
+	#trigger the timer's timeout() so that they can chase/move towards our player 
+	else:
+		timer = 0
+	
+	
+func _on_timer_timeout():
+	var player_distance = player.position - position
+	#attack radius
+	if player_distance.length() <= 20:
+		new_direction = player_distance.normalized()
+	
+	#chase radius
+	#chase/move towards player to attack them
+	elif player_distance.length() <= 100 and timer == 0:
+		direction = player_distance.normalized()
+	
+	#random roam radius	
+	elif timer == 0:
+		#this will generate a random direction value
+		var random_direction = rng.randf()
+		#This direction is obtained by rotating Vector2.DOWN by a random angle.
+		if random_direction < 0.05:
+			#enemy stops
+			direction = Vector2.ZERO
+		elif random_direction < 0.1:
+			#enemy moves
+			direction = Vector2.DOWN.rotated(rng.randf() * 2 * PI)
+		
+
+
+	
+		
+
+
+
+
 
 

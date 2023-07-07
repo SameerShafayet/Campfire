@@ -19,7 +19,7 @@ func _physics_process(delta):
 	var movement = speed * direction * delta
 	# moves our player around, whilst enforcing collisions so that they come to a stop when colliding with another object.
 	move_and_collide(movement)   
-#animations to play
+	#animations to play
 	player_animations(direction)
 	
 func player_animations(direction : Vector2):
@@ -52,6 +52,6 @@ func returned_direction(direction : Vector2):
 		#flip the animation for reusability (left)
 		$AnimatedSprite2D.flip_h = true
 		return "side"
-
-		#default value is empty
-		return ""
+		
+	#default value is empty
+	return ""

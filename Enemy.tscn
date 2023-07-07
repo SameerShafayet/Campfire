@@ -35,7 +35,7 @@ scale = Vector2(2.04118, 2.02778)
 sprite_frames = SubResource("SpriteFrames_atpnv")
 animation = &"enemy"
 
-[node name="Camera2D" type="Camera2D" parent="."]
-
 [node name="Timer" type="Timer" parent="."]
 autostart = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

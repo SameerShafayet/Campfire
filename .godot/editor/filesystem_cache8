@@ -1,10 +1,12 @@
 2a60927148abd1d33b818b535e306557
-::res://::1688797997
+::res://::1688801380
+Coyote Front Sheet.png::CompressedTexture2D::4101765815344235057::1688764623::1688801382::1::::<><>::
+DesertSands.png::CompressedTexture2D::2001995466880424963::1688799067::1688801342::1::::<><>::
 Enemy.gd::GDScript::-1::1688797995::0::1::::<>CharacterBody2D<>::
 enemy.PNG::CompressedTexture2D::8109173043774919426::1688745122::1688745122::1::::<><>::
-Enemy.tscn::PackedScene::324573321892123225::1688797997::0::1::::<><>::res://Enemy.gd<>uid://byo6qpfqbr54h
+Enemy.tscn::PackedScene::324573321892123225::1688801380::0::1::::<><>::res://Enemy.gd<>uid://byo6qpfqbr54h
 enemy_spawner.gd::GDScript::-1::1688797676::0::1::::<>Node2D<>::
-enemy_spawner.tscn::PackedScene::7225243096370562628::1688797997::0::1::::<><>::res://enemy_spawner.gd
+enemy_spawner.tscn::PackedScene::7225243096370562628::1688800819::0::1::::<><>::res://enemy_spawner.gd
 game.tscn::PackedScene::-1::1688748217::0::1::::<><>::
 icon.svg::CompressedTexture2D::8618228047920076574::1688760402::1688760403::1::::<><>::
 main.gd::GDScript::-1::1688751080::0::1::::<>Control<>::
@@ -12,8 +14,8 @@ main.tscn::PackedScene::4656951139325522033::1688797996::0::1::::<><>::res://mai
 player.gd::GDScript::-1::1688760811::0::1::::<>CharacterBody2D<>::
 player.tscn::PackedScene::9075991232139441663::1688797997::0::1::::<><>::res://player.gd<>uid://d0djok8y1fmuk<>uid://bkn51u0pped7v<>uid://d2j6cf5ctielj
 README.md::TextFile::-1::1688672576::0::1::::<><>::
-world.tscn::PackedScene::4616118850167431275::1688797996::0::1::::<><>::uid://d2kqiqrjjx6vr<>uid://evhw7rx1va06
-::res://assets/::1688799067
+world.tscn::PackedScene::4616118850167431275::1688801341::0::1::::<><>::uid://d2kqiqrjjx6vr<>uid://evhw7rx1va06
+::res://assets/::1688801341
 airbnb.png::CompressedTexture2D::3578035331326461408::1688764612::1688764631::1::::<><>::
 apple.svg::CompressedTexture2D::2608044805342018159::1688764612::1688764631::1::::<><>::
 arrow-up.svg::CompressedTexture2D::4958197525923913690::1688764612::1688764632::1::::<><>::
@@ -23,7 +25,6 @@ binance.png::CompressedTexture2D::4343445825690465951::1688764612::1688764632::1
 card.png::CompressedTexture2D::6019326463375789871::1688764612::1688764633::1::::<><>::
 close.svg::CompressedTexture2D::218501884177147124::1688764612::1688764632::1::::<><>::
 coinbase.png::CompressedTexture2D::5467841754899169068::1688764612::1688764632::1::::<><>::
-DesertSands.png::CompressedTexture2D::2001995466880424963::1688799067::1688799067::1::::<><>::
 Discount.svg::CompressedTexture2D::7531052562631017231::1688764612::1688764632::1::::<><>::
 dropbox.png::CompressedTexture2D::6078991982437148884::1688764612::1688764632::1::::<><>::
 facebook.svg::CompressedTexture2D::7332833031860661932::1688764612::1688764632::1::::<><>::
@@ -507,9 +508,8 @@ Cactus Side Sheet.png::CompressedTexture2D::1578619007368601217::1688764623::168
 Coffin Back Sheet.png::CompressedTexture2D::1902113764392617115::1688764623::1688764633::1::::<><>::
 Coffin Front Sheet.png::CompressedTexture2D::4215858613587372930::1688764623::1688764633::1::::<><>::
 Coffin Side Sheet.png::CompressedTexture2D::1520771719879122116::1688764623::1688764633::1::::<><>::
-::res://assets/Mobs/Coyote/::1688764632
+::res://assets/Mobs/Coyote/::1688801380
 Coyote Back Sheet.png::CompressedTexture2D::75346255080018360::1688764623::1688764632::1::::<><>::
-Coyote Front Sheet.png::CompressedTexture2D::4101765815344235057::1688764623::1688764632::1::::<><>::
 Coyote Side Sheet.png::CompressedTexture2D::291365969821027498::1688764623::1688764632::1::::<><>::
 ::res://assets/Music/::1688764623
 ::res://assets/Music/Free Retro SFX by @inertsongs/::1688764646

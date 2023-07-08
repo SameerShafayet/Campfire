@@ -1,6 +1,9 @@
-[gd_scene format=3 uid="uid://da67x0ddynjma"]
+[gd_scene load_steps=2 format=3 uid="uid://da67x0ddynjma"]
+
+[ext_resource type="Script" path="res://enemy_spawner.gd" id="1_p1b06"]
 
 [node name="EnemySpawner" type="Node2D"]
+script = ExtResource("1_p1b06")
 
 [node name="Timer" type="Timer" parent="."]
 autostart = true

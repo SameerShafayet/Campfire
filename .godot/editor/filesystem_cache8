@@ -1,21 +1,22 @@
 2a60927148abd1d33b818b535e306557
-::res://::1688803071
-Coyote Front Sheet.png::CompressedTexture2D::-1::1688803071::1688803071::1::::<><>::
-DesertSands.png::CompressedTexture2D::-1::1688803071::1688803071::1::::<><>::
-Enemy.gd::GDScript::-1::1688803071::0::1::::<>CharacterBody2D<>::
+::res://::1688827013
+Coyote Front Sheet.png::CompressedTexture2D::4101765815344235057::1688803071::1688803071::1::::<><>::
+DesertSands.png::CompressedTexture2D::2001995466880424963::1688803071::1688803071::1::::<><>::
+Enemy.gd::GDScript::-1::1688826121::0::1::::<>CharacterBody2D<>::
 enemy.PNG::CompressedTexture2D::8109173043774919426::1688751539::1688751539::1::::<><>::
-Enemy.tscn::PackedScene::324573321892123225::1688800766::0::1::::<><>::res://Enemy.gd<>uid://dnse5o6sewrj3
+Enemy.tscn::PackedScene::324573321892123225::1688826399::0::1::::<><>::res://Enemy.gd<>uid://42ls610jhhpn
 enemy_spawner.gd::GDScript::-1::1688803071::0::1::::<>Node2D<>::
-enemy_spawner.tscn::PackedScene::7225243096370562628::1688800766::0::1::::<><>::
+enemy_spawner.tscn::PackedScene::7225243096370562628::1688826399::0::1::::<><>::res://enemy_spawner.gd
 game.tscn::PackedScene::2252513890246549657::1688747283::0::1::::<><>::uid://b5hvuvpsbtvy6
 icon.svg::CompressedTexture2D::8618228047920076574::1688798034::1688803106::1::::<><>::
 main.gd::GDScript::-1::1688751539::0::1::::<>Control<>::
-main.tscn::PackedScene::4656951139325522033::1688800766::0::1::::<><>::res://main.gd
-player.gd::GDScript::-1::1688802666::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::9075991232139441663::1688800766::0::1::::<><>::res://player.gd<>uid://d0djok8y1fmuk<>uid://bkn51u0pped7v<>uid://d2j6cf5ctielj
+main.tscn::PackedScene::4656951139325522033::1688826399::0::1::::<><>::res://main.gd
+player.gd::GDScript::-1::1688823901::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::8873486175044700510::1688826399::0::1::::<><>::res://player.gd<>uid://d0djok8y1fmuk<>uid://bkn51u0pped7v<>uid://d2j6cf5ctielj
 README.md::TextFile::-1::1688709897::0::1::::<><>::
-world.tscn::PackedScene::4616118850167431275::1688800766::0::1::::<><>::uid://d2kqiqrjjx6vr<>uid://evhw7rx1va06
-::res://Player/::1688740572
+Skeleton.png::CompressedTexture2D::2091916365610237967::1688825694::1688825696::1::::<><>::
+world.tscn::PackedScene::4616118850167431275::1688826432::0::1::::<><>::uid://dyonayej55iy5<>uid://evhw7rx1va06
+::res://Player/::1688823293
 LaTequila.ttf::FontFile::2360103652462056717::1688740572::1688740572::1::::<><>::
 Player Angle 1 Sheet.png::CompressedTexture2D::3090039344487215928::1688740572::1688740572::1::::<><>::
 Player Angle 2 Sheet.png::CompressedTexture2D::5652618772760647527::1688740572::1688740572::1::::<><>::

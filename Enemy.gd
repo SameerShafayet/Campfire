@@ -36,7 +36,7 @@ func _physics_process(delta):
 	var collision = move_and_collide(movement)
 	
 	#if the enemy collides with other objects, turn them around and re-randomize the timer countdown
-	if collision != null and collision.get_collider().name != "Player":
+	if collision != null and collision.get_collider().name != "player":
 		#direction rotation
 		direction = direction.rotated(rng.randf_range(PI/4, PI/2))
 		#timer countdown random range
@@ -111,17 +111,15 @@ func enemy_animations(direction : Vector2):
 	#update our direction with the new_direction
 		new_direction = direction
 		#play walk animation because we are moving
+		
 		animation = "walk " + returned_direction(new_direction)
 		$AnimatedSprite2D.play(animation)
 	else:
 	#play idle animation because we are still
+		new_direction = direction
+		#play walk animation because we are moving
 		animation  = "idle " + returned_direction(new_direction)
 		$AnimatedSprite2D.play(animation) 
-		
-
-
-	
-		
 
 
 

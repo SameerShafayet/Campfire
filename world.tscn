@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://b61c2kkvy1umt"]
 
-[ext_resource type="PackedScene" uid="uid://d2kqiqrjjx6vr" path="res://player.tscn" id="1_abydv"]
+[ext_resource type="PackedScene" uid="uid://dyonayej55iy5" path="res://player.tscn" id="1_abydv"]
 [ext_resource type="PackedScene" uid="uid://evhw7rx1va06" path="res://Enemy.tscn" id="2_ndm4n"]
 
 [node name="World" type="Node2D"]
@@ -8,8 +8,8 @@
 [node name="Map" type="TileMap" parent="."]
 format = 2
 
-[node name="player" parent="." instance=ExtResource("1_abydv")]
-position = Vector2(150, 126)
-
 [node name="Enemy" parent="." instance=ExtResource("2_ndm4n")]
-position = Vector2(418, 108)
+position = Vector2(384, 112)
+
+[node name="player" parent="." instance=ExtResource("1_abydv")]
+position = Vector2(284, 89)

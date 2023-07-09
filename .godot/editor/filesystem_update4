@@ -1,7 +1,6 @@
-res://main.tscn
 res://world.tscn
+res://sewer.tres
+res://main.tscn
 res://Enemy.tscn
 res://enemy_spawner.tscn
 res://player.tscn
-res://Enemy.gd
-res://player.gd

@@ -212,16 +212,18 @@ height = 50.0
 script = ExtResource("1_7dkpk")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
 position = Vector2(-2, 7)
 scale = Vector2(3, 3.072)
 sprite_frames = SubResource("SpriteFrames_nnh63")
-animation = &"walk up"
+animation = &"walk side"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-1, 6)
 shape = SubResource("CapsuleShape2D_qeqcm")
 
 [node name="Timer" type="Timer" parent="."]
+wait_time = 0.025
 autostart = true
 
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
